@@ -1,0 +1,97 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container styling */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form elements */
+form p {
+    margin: 15px 0;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 80%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Result box */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Weight guide section */
+#Weight-Guide {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#Weight-Guide h3 {
+    color: #5cb85c;
+}
+
+#Weight-Guide p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
