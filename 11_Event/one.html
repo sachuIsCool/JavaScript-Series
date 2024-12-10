@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML EVENTS</title>
+    <style>
+        body {
+            background-color: #414141;
+            color: aliceblue;
+        }
+        #images img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Event</h1>
+    <h2>Amazing Image</h2>
+    <div>
+        <ul id="images">
+            <li>
+                <img id="photoshop" src="2.jpeg" alt="Flowers in Chania">
+            </li>
+            <li>
+                <img id="flower" src="1.jpeg" alt="Girl in a jacket">
+            </li>
+            <li>
+                <img id="leaf" src="3.jpeg" alt="Leaf image" alt="" onclick="alert('leaf')">
+                
+            </li>    
+           
+        </ul>
+    </div>
+</body>
+<script>
+    // document.getElementById('plant').onclick = function(){
+    //     alert("on clicked")
+    // }
+    document.getElementsById('photoshop').addEventListerner('click',function(){
+alert("own clicked again")
+    })
+    //attachEvent()
+    //jQuery -on
+// type ,timestamp,defaultprevented
+    //target,toElement,srcElement,currentTarget,
+    //clientX,clientY,screenX,screenY
+    //altkey,ctrlkey,shiftkey,keyCode
+    
+document.getElementsById('leaf').addEventListerner('click',function(e){
+console.log(e);
+    },false)
+  
+
+    document.querySelector('#image').addEventListener
+    ('click',function(e){
+        
+console.log(e.target.parentNode);
+let removeIt =e.target.parentNode
+removeIt.remove()
+})
+
+
+
+
+</script>
+</html>
