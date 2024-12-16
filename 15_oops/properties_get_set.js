@@ -25,16 +25,16 @@ function User(email, password) {
 }
 
 // Create a new user instance
-const sachin = new User("sachin@gmail.com", "12as3");
+const sachin = new User("sachinkumar@gmail.com", "12as3");
 
 // Access the properties
 console.log(sachin.password); // Output: "12AS3"
 console.log(sachin.email);    // Output: "SACHIN@GMAIL.COM"
 
 // Modify the properties using setters
-sachin.password = "newPassword";
-sachin.email = "newemail@gmail.com";
+// sachin.password = "newPassword";
+// sachin.email = "newemail@gmail.com";
 
-console.log(sachin.password); // Output: "NEWPASSWORD"
-console.log(sachin.email);    // Output: "NEWEMAIL@GMAIL.COM"
+// console.log(sachin.password); // Output: "NEWPASSWORD"
+// console.log(sachin.email);    // Output: "NEWEMAIL@GMAIL.COM"
 

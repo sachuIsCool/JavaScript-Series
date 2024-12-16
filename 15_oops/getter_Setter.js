@@ -13,7 +13,7 @@ return this._email.toUpperCase()
          this._email=value.toUpperCase()
     }
     get password(){
-        return this._password.toLowerCase()//also use toUpperCase
+        return this._password.toLowerCase()// and also use toUpperCase
     }
     set password(value){
         this._password=value.toLowerCase()
